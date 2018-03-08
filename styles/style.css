@@ -1,0 +1,173 @@
+* {
+	text-align: center;
+}
+body {
+	margin: 0;
+	background-color: green;
+}
+#game-box {
+	background-color: green;
+}
+#game {
+	width: 800px;
+	height: 600px;
+	margin: 10px auto 0px;
+	background-color: green;
+	border: 1px solid black;
+}
+.redux {
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 5px;
+	background-color: red;
+	z-index: 500;
+}
+.moeda {
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 5px;
+	font-size: 10px;
+	background-color: gold;
+	z-index: 420;
+}
+.coin {
+	width: 200px;
+	height: 20px;
+	margin: auto;
+}
+.contador-label {
+	width: 100px;
+	float: left;
+}
+.contador {
+	width: 100px;
+	float: left;
+}
+.dead {
+	background-color: brown;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+}
+.reset{
+	margin: auto;
+	width: 200px;
+	height: 20px;
+}
+.reset-label {
+	width: 100px;
+	float: left;
+}
+.reset-time {
+	width: 100px;
+	float: left;
+}
+.extra-open {
+	position: absolute;
+	background-color: white;
+	width: 200px;
+	height: 20px;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+	z-index: 1500;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+.extra-box {
+	bottom: 0; 
+	right: 0;
+	top:20px;
+	position: absolute;
+	display: none;
+	width: 500px;
+	height: 800;
+	overflow: scroll;
+	background-color: white;
+	z-index: 1501;
+	border-left: 1px solid black;
+}
+.opts-open {
+	position: absolute;
+	background-color: white;
+	width: 200px;
+	height: 20px;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	z-index: 1500;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+.opts-box {
+	bottom: 0; 
+	left: 0;
+	top:20px;
+	position: absolute;
+	display: none;
+	width: 500px;
+	height: 800;
+	overflow: scroll;
+	background-color: white;
+	z-index: 1501;
+	border-left: 1px solid black;
+}
+#upbox {
+	cursor: pointer;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.div-label
+.zen {
+	float: left;
+}
+.ad1 {
+	right: 10px;
+	position: absolute;
+	height: 600px;
+	width: 250px;
+	top: 30px;
+}
+.ad2 {
+	left: 10px;
+	position: absolute;
+	height: 600px;
+	width: 250px;
+	top: 30px;
+}
+
+.bonus-box {
+	bottom: 40%; 
+	right: 40%;
+	display: none;
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	background-color: white;
+	z-index: 1520;
+}
+.bonus-buttom{
+	background-color: white;
+}
+.bonus-ad{
+	display: none;
+}
+
+.donate{
+	margin: auto;
+	width: 350px;
+	height: 18px;
+}
+.donate-label {
+	float: left;
+}
+.btcAdress {
+	float: left;
+}
+.game-infos{
+	border: 1px solid black;
+}
